@@ -1,0 +1,22 @@
+.about-sec {
+    background: $secondaryGradient;
+}
+
+.about-text {
+    flex: 0 1 50%;
+    p {
+        padding: 1.3rem 0;
+    }
+}
+
+.about-img {
+    flex: 0 1 40%;
+    img {
+        border-radius: 20px;
+    }
+}
+
+.btn-about {
+    color: $primaryColor;
+    border-color: $primaryColor;
+}

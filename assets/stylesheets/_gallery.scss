@@ -1,0 +1,41 @@
+.gallery-sec {
+    background: $tertiaryColor;
+    text-align: center;
+    h2 {
+        padding-bottom: 1rem;
+        font-size: 3rem;
+    }
+}
+
+.gallery-img {
+    flex: 0 1 30%;
+    margin: 1.2rem 0;
+    padding: 0.5rem;
+    background: #fff;
+    border-radius: $small-radius;
+    background: #fff;
+    position: relative;
+    font-size: 0;
+    img {
+        border-radius: $small-radius;
+    }
+}
+
+.free::before {
+    content: "Free";
+    color: #fff;
+    font-size: 1rem;
+    background: $primaryColor;
+    position: absolute;
+    padding: 3px 8px;
+    border-bottom-right-radius: $small-radius;
+    border-top-left-radius: $small-radius;
+    left: 0;
+    top: 0;
+}
+
+.premium::before {
+    @extend .free::before;
+    content: "Premium";
+    background: $secondaryColor;
+}

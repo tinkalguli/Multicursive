@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: inset 0 5px 10px $shadowColor;
+    small {
+        line-height: 4;
+    }
+}
+
+.icon-bar {
+    max-width: 10rem;
+    margin: 0 auto;
+    a {
+        @extend .logo;
+        font-size: 2.5rem;
+    }
+}

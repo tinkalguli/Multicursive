@@ -1,0 +1,40 @@
+#check,
+.check-btn {
+    display: none;
+}
+
+.header {
+    padding: 0.8rem 0;
+    box-shadow: 0 1px 10px $shadowColor;
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    background: $primaryGradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-emphasis-color: transparent;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.navbar {
+    li {
+        margin-left: 1.5rem;
+    }
+    a:not(.btn) {
+        color: $primaryColor;
+        text-transform: uppercase;
+        &:hover, &:active {
+            text-decoration: underline;
+        }
+    }
+}
+
+.btn:hover {
+    background-color: $buttonColor;
+    color: #fff;
+    border-color: $buttonColor;
+}
