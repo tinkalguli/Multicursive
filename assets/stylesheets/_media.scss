@@ -1,0 +1,84 @@
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+
+    .col-100 {
+        flex-basis: 100%;
+    }
+
+    .col-45 {
+        flex-basis: 45%;
+    }
+
+    .margin-bottom {
+        margin-bottom: 1rem;
+    }
+
+    /*====  toggle menu  ====*/
+
+    .check-btn {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 999;
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 2rem;
+        height: 3px;
+        border-radius: 1px;
+        background: #000;
+        margin: 3px 0;
+    }
+
+    .navbar li {
+        text-align: center;
+        margin: 5vh 0;
+        width: 100%;
+    }
+
+    .navbar {
+        display: none;
+        background: #ffffffdd;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 70vh;
+        border-radius: 5px;
+    }
+
+    #check:checked ~ .navbar {
+        display: block;
+    }
+
+    #check:checked ~ .check-btn > .bar {
+        position: absolute;
+        right: 0;
+    }
+
+    #check:checked ~ .check-btn > .bar-1 {
+        transform: rotate(45deg);
+    }
+
+    #check:checked ~ .check-btn > .bar-2 {
+        display: none;
+    }
+
+    #check:checked ~ .check-btn > .bar-3 {
+        transform: rotate(135deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .col-full {
+        flex-basis: 100%;
+    }
+}

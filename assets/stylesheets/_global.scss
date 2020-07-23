@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 60rem;
+    padding: 0 1.6rem;
+    margin: 0 auto;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem .8rem;
+    color: $secondaryColor;
+    border: 2px solid $secondaryColor;
+    border-radius: 10px;
+}
+
+.padding {
+    padding: 4rem 0;
+}
+
+img {
+    width: 100%;
+}
