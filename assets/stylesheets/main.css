@@ -313,13 +313,13 @@ a {
 
 .footer {
   text-align: center;
-  padding: 1rem 0;
   -webkit-box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.726);
           box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.726);
+  padding: 1.5rem 0 1rem 0;
 }
 
 .footer small {
-  line-height: 4;
+  line-height: 2.5;
 }
 
 .icon-bar {

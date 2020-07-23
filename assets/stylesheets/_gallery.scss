@@ -12,12 +12,12 @@
     margin: 1.2rem 0;
     padding: 0.5rem;
     background: #fff;
-    border-radius: $small-radius;
+    border-radius: $radius;
     background: #fff;
     position: relative;
     font-size: 0;
     img {
-        border-radius: $small-radius;
+        border-radius: $radius;
     }
 }
 
@@ -28,8 +28,8 @@
     background: $primaryColor;
     position: absolute;
     padding: 3px 8px;
-    border-bottom-right-radius: $small-radius;
-    border-top-left-radius: $small-radius;
+    border-bottom-right-radius: $radius;
+    border-top-left-radius: $radius;
     left: 0;
     top: 0;
 }
