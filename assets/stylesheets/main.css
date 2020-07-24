@@ -112,6 +112,7 @@ h1,
 h2,
 h3,
 .logo,
+.hero-sec a,
 .icon-bar a {
   font-weight: 700;
   color: #820faf;
@@ -147,6 +148,7 @@ a {
 
 
 .logo,
+.hero-sec a,
 .icon-bar a {
   background: -webkit-gradient(linear, left top, right top, from(#820faf), to(#bd7913));
   background: linear-gradient(to right, #820faf, #bd7913);
@@ -181,25 +183,25 @@ a {
 .hero-sec {
   padding: 13rem 0 9rem 0;
   text-align: center;
+  background: linear-gradient(45deg, #0004 20%, #fff4 20% 40%, #fff6 40% 60%, #fff8 60% 80%, #fffa 80%), url(../images/hero.jpg) 0 0 no-repeat;
+  background-size: cover;
 }
 
-.hero-sec .logo, .hero-sec .icon-bar a, .icon-bar .hero-sec a {
+.hero-sec .logo, .hero-sec a, .hero-sec .icon-bar a, .icon-bar .hero-sec a {
   font-size: inherit;
 }
 
 .hero-sec p {
   font-size: 1.8rem;
-  margin: 1.5rem 0;
+  margin: 1.3rem 0 1.8rem 0;
   color: #bd7913;
 }
 
 .hero-sec a {
-  color: #bd7913;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .gallery-sec {
-  background: #a1f2f5;
   text-align: center;
 }
 
@@ -214,9 +216,8 @@ a {
           flex: 0 1 30%;
   margin: 1.2rem 0;
   padding: 0.5rem;
-  background: #fff;
   border-radius: 10px;
-  background: #fff;
+  background: #aaa;
   position: relative;
   font-size: 0;
 }
@@ -282,8 +283,7 @@ a {
 }
 
 .about-sec {
-  background: -webkit-gradient(linear, left top, right top, from(#cf77f1), to(#ebd46d));
-  background: linear-gradient(to right, #cf77f1, #ebd46d);
+  background: #eee;
 }
 
 .about-text {

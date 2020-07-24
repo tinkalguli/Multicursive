@@ -1,5 +1,4 @@
 .gallery-sec {
-    background: $tertiaryColor;
     text-align: center;
     h2 {
         padding-bottom: 1rem;
@@ -11,9 +10,8 @@
     flex: 0 1 30%;
     margin: 1.2rem 0;
     padding: 0.5rem;
-    background: #fff;
     border-radius: $radius;
-    background: #fff;
+    background: #aaa;
     position: relative;
     font-size: 0;
     img {
